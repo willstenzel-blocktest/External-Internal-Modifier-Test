@@ -18,7 +18,7 @@ contract Test_Public_Internal is Public {
     
 contract Test_Public_External {
     
-    function test_public_internal() {
+    function test_public_external() {
         Public c = new Public();
         uint[] memory a = new uint[](200);
         a[10] = 8;
